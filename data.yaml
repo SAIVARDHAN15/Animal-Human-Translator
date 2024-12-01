@@ -1,0 +1,15 @@
+train:  /content/drive/MyDrive/Kaagle Dog Emotion.v3i.yolov5pytorch/train/images
+val:  /content/drive/MyDrive/Kaagle Dog Emotion.v3i.yolov5pytorch/valid/images
+test: /content/drive/MyDrive/Kaagle Dog Emotion.v3i.yolov5pytorch/test/images
+
+nc: 4
+names: ['angry', 'happy', 'relaxed', 'sad']
+
+roboflow:
+  workspace: dogemotiondataset
+  project: kaagle-dog-emotion-kj0bh
+  version: 3
+
+  
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dogemotiondataset/kaagle-dog-emotion-kj0bh/dataset/3
